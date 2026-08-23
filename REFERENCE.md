@@ -16,7 +16,7 @@ Git/GitHub を実務で使うために必要な知識を動画で分かりやす
 
 ---
 
-### [Pro Git](https://git-scm.com/book/ja/v2)
+### [Git Docs](https://git-scm.com/book/ja/v2)
 
 ### [GitHub Docs](https://docs.github.com/ja/get-started/quickstart)
 

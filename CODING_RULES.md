@@ -18,7 +18,7 @@
 
 ---
 
-### 1. 目的
+### 目的
 
 本規約は、チームで開発するソフトウェアの**可読性・保守性・品質・一貫性**を向上させ、開発効率を高めることを目的とする。
 
@@ -30,7 +30,7 @@
 
 ---
 
-### 2. 基本方針
+### 基本方針
 
 #### 可読性
 
@@ -63,7 +63,7 @@
 
 ---
 
-### 3. 命名規則
+### 命名規則
 | 対象 | 規則 | 例 |
 | --- | --- | --- |
 | コンポーネント | PascalCase | `UserProfile` |
@@ -84,7 +84,7 @@
 
 ---
 
-### 4. コンポーネント
+### コンポーネント
 
 #### 4.1 コンポーネント名
 
@@ -149,7 +149,7 @@ Item
 
 ---
 
-### 5. ファイル名
+### ファイル名
 
 #### 5.1 Reactコンポーネント
 
@@ -206,7 +206,7 @@ const currentPage = 1;
 
 ---
 
-#### 6.1 意味のない変数名を避ける
+#### 意味のない変数名を避ける
 
 ##### OK
 
@@ -235,7 +235,7 @@ const tmp = calculateTotal();
 
 ---
 
-### 7. 関数
+### 関数
 
 関数は **lowerCamelCase** で命名する。
 
@@ -255,7 +255,7 @@ formatDate();
 
 ---
 
-#### 7.1 CRUD系
+#### CRUD系
 
  以下を基本とする。
 
@@ -281,7 +281,7 @@ formatUserName();
 
 ---
 
-### 8. イベント
+### イベント
 
 #### 8.1 イベントProps
 
@@ -316,7 +316,7 @@ const handleDelete = () => {};
 
 ---
 
-### 9. Boolean
+### Boolean
 
 Boolean型の変数・Props・Stateは、原則として以下の接頭辞を使用する。
 
@@ -342,7 +342,7 @@ const error = false;
 
 ---
 
-### 10. State
+### State
 
 `useState` のStateと更新関数は以下の形式にする。
 
@@ -376,7 +376,7 @@ const [hasError, setHasError] = useState(false);
 
 ---
 
-### 11. Props
+### Props
 
 #### 11.1 Props名
 
@@ -425,7 +425,7 @@ type SearchFormProps = {};
 
 ---
 
-### 12. Type / Interface
+### Type / Interface
 
 型およびinterfaceは **PascalCase** とする。
 
@@ -463,7 +463,7 @@ interface User {}
 
 ---
 
-### 13. 型とPropsの使い分け
+### 型とPropsの使い分け
 
 ドメインモデルを表す型
 
@@ -487,7 +487,7 @@ type UserCardProps = {
 
 ---
 
-### 14. カスタムHook
+### カスタムHook
 
 カスタムHookは **`use` \+ PascalCase** とする。
 
@@ -524,7 +524,7 @@ useUtil();
 
 ---
 
-### 15. Context
+### Context
 
 Contextは **`名前 + Context`** とする。
 
@@ -554,7 +554,7 @@ function AuthProvider() {
 
 ---
 
-### 16. 定数
+### 定数
 
 アプリケーション全体で変更されない定数は、原則として **UPPER\_SNAKE\_CASE** を使用する。
 
@@ -582,7 +582,7 @@ function UserList() {
 
 ---
 
-### 17. 配列
+### 配列
 
 配列は原則として複数形で命名する。
 
@@ -604,7 +604,7 @@ const order = {};
 
 ---
 
-### 18. Map / Filter / Reduce
+### Map / Filter / Reduce
 
 コレクション操作では、要素の意味が分かる変数名を使用する。
 
@@ -628,7 +628,7 @@ users.map((item) => (
 
 ---
 
-### 19. API関連
+### API関連
 
 APIクライアントやデータ取得関数は、責務が分かる命名にする。
 
@@ -642,7 +642,7 @@ deleteUser();
 
 ---
 
-### 20. 非同期処理
+### 非同期処理
 
 Promiseを返す関数については、処理内容が分かる動詞を使用する。
 
@@ -667,7 +667,7 @@ async function fetchUsersAsync() {}
 
 ---
 
-### 21. エラー関連
+### エラー関連
 
 エラーを表す変数には、可能な限り意味を明確にする。
 
@@ -693,7 +693,7 @@ const hasApiError = false;
 
 ---
 
-### 22. 日付・時間
+### 日付・時間
 
 日付や時間を表す変数には、単位や意味が分かる名前を付ける。
 
@@ -719,7 +719,7 @@ const MAX_AGE_DAYS = 30;
 
 ---
 
-### 23. ID
+### ID
 
 IDを表す変数は原則として `id` を使用する。
 
@@ -739,7 +739,7 @@ const projectId = "project-001";
 
 ---
 
-### 24. CSS / className
+### CSS / className
 
 `className` は、コンポーネントや要素の役割が分かる名前にする。
 
@@ -768,7 +768,7 @@ CSS        → プロジェクトで定めたCSS規則
 
 ---
 
-### 25. コンポーネントのディレクトリ構成
+### コンポーネントのディレクトリ構成
 
 コンポーネント単位で関連ファイルをまとめる場合は、以下を基本形とする。
 
@@ -802,7 +802,7 @@ types/
 
 ---
 
-### 26. `index.ts` の利用
+### `index.ts` の利用
 
 外部から利用するコンポーネントについては、`index.ts` からexportする。
 
@@ -818,7 +818,7 @@ import { UserCard } from "@/components/UserCard";
 
 ---
 
-### 27. Boolean Propsの例
+### Boolean Propsの例
 
 ```tsx
 type ModalProps = {
@@ -840,7 +840,7 @@ type ModalProps = {
 
 ---
 
-### 28. コンポーネントの命名例
+### コンポーネントの命名例
 
 親子関係や責務が名前から分かるようにする。
 
@@ -863,7 +863,7 @@ SearchPage
 
 ---
 
-### 29. 避けるべき命名
+### 避けるべき命名
 
 以下のような名前は、原則として使用しない。
 
@@ -890,7 +890,7 @@ Bar
 
 ---
 
-### 30. 略語
+### 略語
 
 原則として、意味が分かりにくい略語は使用しない。
 
@@ -925,7 +925,7 @@ const httpClient = createHttpClient();
 
 ---
 
-### 31. 命名の長さ
+### 命名の長さ
 
 短い名前にすることを目的とせず、意味が伝わることを優先する。
 
@@ -955,7 +955,7 @@ const currentUser = getUser();
 
 ---
 
-### 32. 変数の再利用
+### 変数の再利用
 
 異なる意味を持つ値に同じ変数を再利用しない。
 
@@ -978,7 +978,7 @@ const products = getProducts();
 
 ---
 
-### 33. コンポーネント例
+### コンポーネント例
 
 以下を標準的な実装例とする。
 
@@ -1025,7 +1025,7 @@ handleClick   → イベントハンドラ：handle + 名前
 
 ---
 
-### 34. カスタムHook例
+### カスタムHook例
 
 ```tsx
 type UseUserResult = {
@@ -1051,7 +1051,7 @@ export function useUser(userId: string): UseUserResult {
 
 ---
 
-### 35. 命名に迷った場合
+### 命名に迷った場合
 
 命名に迷った場合は、以下の順序で判断する。
 
@@ -1064,7 +1064,7 @@ export function useUser(userId: string): UseUserResult {
 
 ---
 
-### 36. 命名チェックリスト
+### 命名チェックリスト
 
 Pull Requestでは、以下を確認する。
 
@@ -1084,7 +1084,7 @@ Pull Requestでは、以下を確認する。
 
 ---
 
-### 37. 最低限守るべきルール
+### 最低限守るべきルール
 
 すべてのルールを覚える必要はない。最低限、以下を必須ルールとする。
 

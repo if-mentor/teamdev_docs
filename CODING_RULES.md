@@ -1123,14 +1123,7 @@ Props型          → XxxProps
 component/
 └── ComponentName/
     ├── index.tsx
-    └── styles.module.css
-```
-
-例：
-```
-component/
-└── Sample/
-    ├── index.tsx
+    ├── type.ts
     └── styles.module.css
 ```
 

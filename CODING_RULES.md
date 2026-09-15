@@ -761,56 +761,6 @@ CSS        → プロジェクトで定めたCSS規則
 
 ---
 
-### コンポーネントのディレクトリ構成
-
-コンポーネント単位で関連ファイルをまとめる場合は、以下を基本形とする。
-
-```
-components/
-└── UserCard/
-    ├── UserCard.ts
-    ├── UserCard.tsx
-    ├── UserCard.test.tsx
-    ├── UserCard.module.css
-    └── index.ts
-```
-
-Hookは以下を基本とする。
-
-```
-hooks/
-├── useAuth.ts
-├── useUser.ts
-└── useFetchUsers.ts
-```
-
-型は以下を基本とする。
-
-```
-types/
-├── user.ts
-├── product.ts
-└── order.ts
-```
-
----
-
-### `index.ts` の利用
-
-外部から利用するコンポーネントについては、`index.ts` からexportする。
-
-```tsx
-export { UserCard } from "./UserCard";
-```
-
-利用側
-
-```tsx
-import { UserCard } from "@/components/UserCard";
-```
-
----
-
 ### Boolean Propsの例
 
 ```tsx
@@ -1126,6 +1076,24 @@ component/
     ├── index.tsx
     ├── type.ts
     └── styles.module.css
+```
+
+Hookは以下を基本とする。
+
+```
+hooks/
+├── useAuth.ts
+├── useUser.ts
+└── useFetchUsers.ts
+```
+
+型は以下を基本とする。
+
+```
+types/
+├── user.ts
+├── product.ts
+└── order.ts
 ```
 
 既に Sample コンポーネントを作成しているため、新規コンポーネントを実装する際は、Sampleコンポーネントのディレクトリ構造・ファイル構成を参考にしてください。

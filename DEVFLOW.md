@@ -48,14 +48,13 @@ git switch -c 'feature/home'
 ```
 
 - Type: ブランチのプレフィックス
-- Issue Number: 対応する Issue の番号
 - Title: 変更内容が分かる簡潔なタイトル
 
 **＜例＞**
 
 ```sh
 # commit コマンド
-git commit -m 'feature: #1 ButtonComponent'
+git commit -m 'feature: ButtonComponent'
 ```
 
 ## 4. PullRequest

@@ -36,33 +36,7 @@
   ※ プライベート等で参加ができない時は、あると思いますのでその際は、チーム開発チャンネルにご連絡ください。\
   ※ 臨時的なミーティングやチームメンバー同士でもくもく会を開催するのはご自由にやっていただいて大丈夫です。
 
-## 使用技術
+## 推薦教材
 
 **[リファレンス](REFERENCE.md)**\
 ※ 学習の参考として活用いただける教材をまとめております
-
-### フロントエンド
-
-[HTML](https://developer.mozilla.org/ja/docs/Web/HTML)\
-[CSS](https://developer.mozilla.org/ja/docs/Web/CSS)\
-[JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)\
-[TypeScript](https://www.typescriptlang.org)\
-[React.js](https://ja.react.dev)\
-[Next.js](https://nextjs.org)
-
-### バックエンド
-
-[Supabase](https://supabase.com)
-
-### インフラ
-
-[Vercel](https://vercel.com)
-
-### バージョン管理
-
-[GitHub](https://github.co.jp)
-
-## 言語 / パッケージ
-
-[Node.js](https://nodejs.org/ja)\
-[npm](https://docs.npmjs.com/cli/v10/commands/npm-version)

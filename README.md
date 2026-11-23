@@ -36,7 +36,7 @@
 | [開発フロー](https://github.com/if-mentor/teamdev_docs/blob/main/docs/DEVFLOW.md) | 開発の進め方やGit・GitHubの運用ルール |
 | [コーディング規約](https://github.com/if-mentor/teamdev_docs/blob/main/docs/CODING_RULES.md) | コーディングルール |
 | [使用技術](https://github.com/if-mentor/teamdev_docs/blob/main/docs/LIBRARIES.md) | 言語・フレームワーク・インフラ・ライブラリ |
-| [推薦教材](https://github.com/if-mentor/teamdev_docs/blob/main/docs/REFERENCE.md) | 参考資料 |
+| [参考資料](https://github.com/if-mentor/teamdev_docs/blob/main/docs/REFERENCE.md) | 開発用の参考資料 |
 
 ## License
 

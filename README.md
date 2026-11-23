@@ -31,12 +31,12 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| [開発概要](https://github.com/if-mentor/teamdev_docs) | 開発方針・プロジェクトの進め方 |
-| [環境構築](https://github.com/if-mentor/teamdev_docs/blob/main/docs/ENVIROMENT_SETUP.md) | インストール・起動手順 |
-| [開発フロー](https://github.com/if-mentor/teamdev_docs/blob/main/docs/DEVFLOW.md) | Git・GitHubの運用方法 |
+| [開発概要](https://github.com/if-mentor/teamdev_docs) | プロジェクトの概要・目的 |
+| [環境構築](https://github.com/if-mentor/teamdev_docs/blob/main/docs/ENVIROMENT_SETUP.md) | 開発環境の構築・起動手順 |
+| [開発フロー](https://github.com/if-mentor/teamdev_docs/blob/main/docs/DEVFLOW.md) | 開発の進め方やGit・GitHubの運用ルール |
 | [コーディング規約](https://github.com/if-mentor/teamdev_docs/blob/main/docs/CODING_RULES.md) | コーディングルール |
 | [使用技術](https://github.com/if-mentor/teamdev_docs/blob/main/docs/LIBRARIES.md) | 言語・フレームワーク・インフラ・ライブラリ |
-| [推薦教材](https://github.com/if-mentor/teamdev_docs/blob/main/docs/REFERENCE.md) | 公式ドキュメント・学習教材 |
+| [推薦教材](https://github.com/if-mentor/teamdev_docs/blob/main/docs/REFERENCE.md) | 参考資料 |
 
 ## License
 

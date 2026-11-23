@@ -34,7 +34,7 @@
 | [開発概要](https://github.com/if-mentor/teamdev_docs) | プロジェクトの概要・目的 |
 | [環境構築](https://github.com/if-mentor/teamdev_docs/blob/main/docs/ENVIROMENT_SETUP.md) | 開発環境の構築・起動手順 |
 | [開発フロー](https://github.com/if-mentor/teamdev_docs/blob/main/docs/DEVFLOW.md) | 開発の進め方やGit・GitHubの運用ルール |
-| [コーディング規約](https://github.com/if-mentor/teamdev_docs/blob/main/docs/CODING_RULES.md) | コーディングルール |
+| [コーディング規約](https://github.com/if-mentor/teamdev_docs/blob/main/docs/CODING_RULES.md) | 開発時のコーディングルール |
 | [使用技術](https://github.com/if-mentor/teamdev_docs/blob/main/docs/LIBRARIES.md) | 言語・フレームワーク・インフラ・ライブラリ |
 | [参考資料](https://github.com/if-mentor/teamdev_docs/blob/main/docs/REFERENCE.md) | 開発用の参考資料 |
 

@@ -52,7 +52,6 @@ git switch -c 'feat/home'
 **＜例＞**
 
 ```sh
-# commit コマンド
 git commit -m 'feat: ButtonComponent'
 ```
 

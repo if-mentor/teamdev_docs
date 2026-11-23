@@ -9,7 +9,7 @@
 
 ### [もう絶対に忘れない Git・GitHub【Git 100 本ノック+300 枚の図解+丁寧な解説で長期記憶に焼き付けろ！】](https://www.udemy.com/course/git100test)
 
-### [もう怖くない Git！](https://www.udemy.com/course/unscared_git)
+### [Git： もう怖くないGit！チーム開発で必要なGitを完全マスター](https://www.udemy.com/course/unscared_git)
 
 ### [Git Docs](https://git-scm.com/book/ja/v2)
 

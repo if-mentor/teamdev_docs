@@ -18,7 +18,7 @@ Git/GitHub を実務で使うために必要な知識を動画で分かりやす
 
 ### [Git Docs](https://git-scm.com/book/ja/v2)
 
-### [GitHub Docs](https://docs.github.com/ja/get-started/quickstart)
+### [GitHub Docs](https://docs.github.com/ja)
 
 Git/GitHub の公式リファレンスです。\
 不明点があれば、こちらを参照するのがおすすめです。

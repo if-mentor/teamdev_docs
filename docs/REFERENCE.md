@@ -1,7 +1,7 @@
-# 推薦教材一覧
+# 参考資料
 
-以下は、学習の参考としてご活用いただける推薦教材の一覧です。\
-※必ずしもこれらを使用する必要はありません。
+学習の参考としてご活用いただける参考資料の一覧です。\
+※ 必ずしもこれらを使用する必要はありません。
 
 ## Git
 
@@ -11,12 +11,12 @@
 
 ### [もう怖くない Git！](https://www.udemy.com/course/unscared_git)
 
+### [Git Docs](https://git-scm.com/book/ja/v2)
+
 Git/GitHub を実務で使うために必要な知識を動画で分かりやすく解説しています。\
 動画を一通り視聴し、その後は実践の中で疑問が出てきた際に、公式リファレンスを参照して理解を深めていきましょう。
 
----
-
-### [Git Docs](https://git-scm.com/book/ja/v2)
+## GitHub
 
 ### [GitHub Docs](https://docs.github.com/ja)
 

@@ -20,7 +20,7 @@ Git/GitHub を実務で使うために必要な知識を動画で分かりやす
 
 ### [GitHub Docs](https://docs.github.com/ja)
 
-Git/GitHub の公式リファレンスです。\
+GitHub の公式リファレンスです。\
 不明点があれば、こちらを参照するのがおすすめです。
 
 ## JavaScript
